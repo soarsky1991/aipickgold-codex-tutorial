@@ -28,15 +28,14 @@ Live site target: https://codex.aipickgold.com
 这个仓库采用“公开事实源 + 原创改写”的方式建设。
 
 - 官方仓库作为事实源，按其 license 标注使用。
-- 有明确开源许可的中文教程可以参考学习路径和术语。
-- 未声明 license 的仓库和闭源网站不进入公开来源清单，不复制代码和文案。
+- 用户明确允许公开展示的非敏感仓库，可以进入公开来源清单。
+- 未声明 license 的仓库和闭源网站不进入公开来源清单，不搬运代码和文案。
 
 ## 核心参考
 
 - https://github.com/openai/codex
 - https://github.com/openai/skills
 - https://github.com/openai/codex-action
-- https://github.com/leigegehaha/codex-chinese-tutorial
 
 ## License
 
