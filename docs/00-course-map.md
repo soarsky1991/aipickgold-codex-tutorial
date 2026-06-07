@@ -1,119 +1,110 @@
-# Codex 完整课程地图
+# Codex 60 篇公开课程地图
 
-我是智辰老师。这个课程地图把 Codex 学习拆成 14 个核心入口、60+ 个小节。你可以把它当成学习导航，也可以把它当成建站、写教程、做视频和做开源仓库的内容大纲。
+这个仓库只公开 Codex 教程内容。课程目标是让中文开发者从第一次打开 Codex，到能在真实项目中完成读代码、做功能、修 Bug、补测试、审 PR、做上线检查。
 
-## 1. 基础入门
+## 学习顺序
 
-1. Codex 是什么：软件开发 coding agent，不是普通聊天机器人。
-2. 四种入口：App、CLI、IDE、Web / Cloud。
-3. 工具对比：Codex、Claude Code、Cursor、Copilot 的边界。
-4. 适合与不适合：读代码、做功能、修 Bug、写测试；不要无审查碰生产。
-5. 账号与认证：ChatGPT 登录、API key、组织权限。
-6. 第一条任务：只读扫描、总结结构、提出小任务。
-7. 模型与本地环境：如何判断哪些配置可以公开，哪些只能内部使用。
+### 基础入门
 
-## 2. 桌面端入门
+1. [Codex 是什么](lessons/01-codex-intro.md)
+2. [Codex 的使用形态](lessons/02-codex-forms.md)
+3. [Codex 与常见 AI 编程工具对比](lessons/03-codex-vs.md)
+4. [适合与不适合的任务](lessons/04-codex-when.md)
+5. [账号、计划与认证](lessons/05-account-auth.md)
+6. [选择项目与第一条任务](lessons/06-first-task.md)
+7. [模型与环境边界](lessons/07-model-environment-boundary.md)
 
-1. Codex App 是什么：多项目、多线程、本地和云端任务入口。
-2. 下载、安装和登录：先用小项目练习。
-3. App 界面总览：线程、diff、终端、设置、浏览器。
-4. Local / Worktree / Cloud：三种模式怎么选。
-5. 多项目与多线程：并行任务如何避免互相污染。
-6. App 设置：通知、权限、外观、Git。
-7. 快捷键与命令菜单：让日常操作变快。
-8. App Slash Commands：用命令控制上下文和任务。
+### 桌面端主线
 
-## 3. 工程工作流
+1. [Codex App 桌面端概览](lessons/08-desktop-overview.md)
+2. [安装与登录](lessons/09-install-login.md)
+3. [App 界面速览](lessons/10-app-interface.md)
+4. [Local、Worktree、Cloud 线程模式](lessons/11-thread-modes.md)
+5. [多项目与并行线程](lessons/12-parallel-threads.md)
+6. [App 设置](lessons/13-settings.md)
+7. [快捷键与命令菜单](lessons/14-shortcuts.md)
+8. [App Slash Commands](lessons/15-app-commands.md)
 
-1. Git diff、分支和 PR 描述。
-2. Worktree 隔离开发流程。
-3. 内置浏览器与本地 Web 预览。
-4. Chrome 插件：用现有登录态验收页面。
-5. Computer Use：什么时候用桌面操作，什么时候不要用。
+### 工程工作流
 
-## 4. CLI 与终端
+1. [Git Diff 与改动审查](lessons/16-git-diff.md)
+2. [Worktree 隔离开发流程](lessons/17-worktree-flow.md)
+3. [内置浏览器与本地预览](lessons/18-browser-preview.md)
+4. [Chrome 插件](lessons/19-chrome-plugin.md)
+5. [Computer Use](lessons/20-computer-use.md)
 
-1. 安装 Codex CLI。
-2. CLI 基础命令。
-3. 常用全局参数。
-4. CLI Slash Commands。
-5. 会话管理：resume 与 fork。
-6. 非交互模式：`codex exec`。
+### CLI 与终端
 
-## 5. IDE 与 Cloud
+1. [安装 Codex CLI](lessons/21-cli-install.md)
+2. [CLI 基础命令](lessons/22-cli-basics.md)
+3. [常用全局参数](lessons/23-cli-flags.md)
+4. [CLI Slash Commands](lessons/24-cli-slash.md)
+5. [会话管理：resume 与 fork](lessons/25-cli-session.md)
+6. [非交互模式：codex exec](lessons/26-cli-exec.md)
 
-1. Codex IDE 扩展。
-2. IDE 工作流：小步编辑与即时验证。
-3. Codex Web 与 Cloud 入门。
-4. 云端任务：什么任务适合 Cloud。
-5. GitHub 集成：从 Issue 到 PR。
+### IDE 与 Cloud
 
-## 6. 核心概念
+1. [Codex IDE 扩展](lessons/27-ide-extension.md)
+2. [IDE 工作流：小步编辑与即时验证](lessons/28-ide-workflow.md)
+3. [Codex Web 与 Cloud 入门](lessons/29-cloud-web.md)
+4. [云端任务适合做什么](lessons/30-cloud-tasks.md)
+5. [GitHub 集成：Issue 到 PR](lessons/31-github-integration.md)
 
-1. Agent Loop：Codex 的执行循环。
-2. Thread、Turn 与 Context。
-3. Sandbox 与 Approval：两条边界。
-4. 模型与推理强度。
+### 核心概念
 
-## 7. 配置与定制
+1. [Agent Loop 执行循环](lessons/32-agent-loop.md)
+2. [Thread、Turn 与 Context](lessons/33-thread-context.md)
+3. [Sandbox 与 Approval](lessons/34-sandbox-approval.md)
+4. [模型与推理强度](lessons/35-models-reasoning.md)
 
-1. `config.toml`：用户级与项目级配置。
-2. Permissions Profile。
-3. Rules：命令级允许、提示、拒绝。
-4. Hooks：生命周期里的确定性脚本。
+### 配置与定制
 
-## 8. 扩展能力
+1. [config.toml 配置](lessons/36-config-toml.md)
+2. [Permissions Profile](lessons/37-permissions-profile.md)
+3. [Rules 规则](lessons/38-rules.md)
+4. [Hooks 生命周期脚本](lessons/39-hooks.md)
 
-1. AGENTS.md。
-2. Skills。
-3. MCP。
-4. 插件中文速查表。
-5. 浏览、安装、启用、卸载插件。
+### 扩展能力
 
-## 9. 实战工作流
+1. [AGENTS.md 项目说明书](lessons/40-agents-md.md)
+2. [Skills 技能](lessons/41-skills.md)
+3. [MCP 工具连接](lessons/42-mcp.md)
+4. [插件能力](lessons/43-plugins.md)
+5. [插件管理](lessons/44-plugin-management.md)
 
-1. 理解陌生代码库。
-2. 实现新功能。
-3. 修 Bug。
-4. 写测试。
-5. 代码审查。
-6. 重构与迁移。
-7. 前端 UI 开发。
+### 真实项目工作流
 
-## 10. 集成与自动化
+1. [理解陌生代码库](lessons/45-workflow-codebase.md)
+2. [实现新功能](lessons/46-workflow-feature.md)
+3. [修 Bug](lessons/47-workflow-bugfix.md)
+4. [写测试](lessons/48-workflow-test.md)
+5. [代码审查](lessons/49-workflow-review.md)
+6. [重构与迁移](lessons/50-workflow-refactor.md)
+7. [前端 UI 开发与验收](lessons/51-workflow-frontend.md)
 
-1. Slack / Linear 等集成。
-2. CI/CD 与 GitHub Action。
-3. Codex SDK 与 App Server。
+### 集成与自动化
 
-## 11. 安全与治理
+1. [协作工具集成](lessons/52-integration-collaboration.md)
+2. [CI/CD 与 GitHub Action](lessons/53-automation-ci.md)
+3. [SDK 与 API 边界](lessons/54-sdk.md)
 
-1. 个人使用安全清单。
-2. 企业治理与上线路径。
+### 安全与治理
 
-## 12. 速查与附录
+1. [本地使用安全清单](lessons/55-local-security.md)
+2. [团队治理与上线门禁](lessons/56-enterprise-governance.md)
 
-1. CLI 命令速查。
-2. Slash 命令速查。
-3. FAQ。
-4. 术语表。
+### 速查与附录
 
-## 13. AI 内容资产
+1. [CLI 命令速查](lessons/57-cli-cheatsheet.md)
+2. [Slash 命令速查](lessons/58-slash-cheatsheet.md)
+3. [常见问题 FAQ](lessons/59-faq.md)
+4. [术语表](lessons/60-glossary.md)
 
-1. 把一次 Codex 实操改写成中文教程。
-2. 把教程拆成小红书卡片、公众号正文和短视频脚本。
-3. 把模板、Skill、清单沉淀成公开仓库资产。
-4. 用复盘数据更新下一次选题和课程结构。
+## 最短实践路径
 
-## 14. 场景提示词库
-
-1. 接手陌生仓库：先只读扫描，再写项目地图。
-2. 实现小功能：目标、范围、约束、验收一次写清。
-3. 修 Bug：复现、定位、最小修复、回归验证。
-4. 补测试：不降低断言，不绕过失败。
-5. PR Review：先找风险，再给建议。
-6. 上线前检查：构建、路由、移动端、敏感信息和回滚路径。
-
-## 我的学习建议
-
-先不要贪多。你只要用一个小项目完成“只读扫描 -> 写 AGENTS.md -> 小改动 -> 跑测试 -> 总结 diff -> 写复盘提示词”这条链路，就已经超过大多数只收藏教程的人。
+1. 先读 [01. Codex 是什么](lessons/01-codex-intro.md)。
+2. 用 [06. 选择项目与第一条任务](lessons/06-first-task.md) 跑通第一条小任务。
+3. 写一份 [40. AGENTS.md 项目说明书](lessons/40-agents-md.md)。
+4. 练习 [45. 理解陌生代码库](lessons/45-workflow-codebase.md)。
+5. 完成 [46. 实现新功能](lessons/46-workflow-feature.md) 或 [47. 修 Bug](lessons/47-workflow-bugfix.md)。
+6. 最后用 [59. 常见问题 FAQ](lessons/59-faq.md) 和 [60. 术语表](lessons/60-glossary.md) 查漏补缺。

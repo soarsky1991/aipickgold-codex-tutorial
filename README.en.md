@@ -1,47 +1,46 @@
 # AI PickGold Codex Tutorial
 
-![AI PickGold banner](assets/personal-ip/x-banner-1500x500.png)
+A 60-lesson practical Codex course for Chinese developers.
 
-I am **Teacher Zhichen**, an AI knowledge creator. I teach Codex, AI content workflows, open-source publishing, Xiaohongshu cover systems, short-form video workflows, and practical AI monetization.
-
-This repository is a practical Codex course for Chinese developers and independent creators. It covers Codex App, CLI, IDE, Cloud, AGENTS.md, Skills, MCP, GitHub automation, and the creator workflow that turns technical learning into tutorials, covers, videos, and reusable assets.
+This public repository contains tutorial content only: Codex App, CLI, IDE, Cloud, AGENTS.md, Skills, MCP, plugins, permissions, safety, GitHub automation, and real project workflows. Non-tutorial notes and operational material are intentionally kept out of the public repository.
 
 Live site: https://codex.aipickgold.com
 
 Chinese README: [README.md](README.md)
 
-## Why This Repo Is Useful
-
-- **Complete curriculum map**: 14 core entries and 60+ lessons from beginner setup to engineering workflows.
-- **Scenario prompt library**: copyable prompts for codebase onboarding, feature work, bug fixes, tests, PR review, and release checks.
-- **Practical creator angle**: I connect Codex with real repositories, publishing packages, cover design, video workflows, and personal IP building.
-- **Action-first learning**: Every chapter should lead to a command, checklist, prompt, or reviewable output.
-- **Safety-aware**: Secrets, account actions, production changes, and public content boundaries are treated as first-class topics.
-- **Bilingual structure**: The repository is designed for Chinese learning with English-friendly navigation.
-
 ## Start Here
 
-1. Course map: [00-course-map.md](docs/00-course-map.md)
-2. What is Codex: [01-codex-intro.md](docs/01-codex-intro.md)
-3. Desktop setup: [02-desktop-setup.md](docs/02-desktop-setup.md)
-4. AGENTS.md and project context: [03-agents-context.md](docs/03-agents-context.md)
-5. CLI and terminal automation: [04-cli-terminal.md](docs/04-cli-terminal.md)
-6. Cloud, GitHub, and PR workflows: [05-cloud-github.md](docs/05-cloud-github.md)
-7. Sandbox and permissions: [06-sandbox-permissions.md](docs/06-sandbox-permissions.md)
-8. Skills, MCP, and plugins: [07-skills-mcp-plugins.md](docs/07-skills-mcp-plugins.md)
-9. Real project workflows: [09-real-workflows.md](docs/09-real-workflows.md)
-10. AI monetization workflow: [13-ai-monetization-workflow.md](docs/13-ai-monetization-workflow.md)
-11. Scenario prompt library: [14-scenario-prompt-library.md](docs/14-scenario-prompt-library.md)
+- [60-lesson index](docs/60-lessons-index.md)
+- [Course map](docs/00-course-map.md)
+- [01. What is Codex](docs/lessons/01-codex-intro.md)
+- [06. Pick a project and first task](docs/lessons/06-first-task.md)
+- [40. AGENTS.md project guide](docs/lessons/40-agents-md.md)
+- [45. Understand an unfamiliar codebase](docs/lessons/45-workflow-codebase.md)
+- [46. Implement a feature](docs/lessons/46-workflow-feature.md)
+- [47. Fix a bug](docs/lessons/47-workflow-bugfix.md)
+- [59. FAQ](docs/lessons/59-faq.md)
 
-## Public Repositories
+## Course Structure
 
-| Repo | Purpose |
-| --- | --- |
-| [aipickgold-codex-tutorial](https://github.com/soarsky1991/aipickgold-codex-tutorial) | Codex learning course |
-| [hyperframes-creator-kit](https://github.com/soarsky1991/hyperframes-creator-kit) | HyperFrames AI video tutorials and creator workflows |
-| [xhs-cover-committee-skill](https://github.com/soarsky1991/xhs-cover-committee-skill) | Xiaohongshu cover review skill |
-| [skill-radar](https://github.com/soarsky1991/skill-radar) | AI Agent, Skills, and MCP trend radar |
+| Section | Lessons | Topics |
+| --- | ---: | --- |
+| Foundations | 7 | Codex positioning, usage forms, account setup, first task |
+| Desktop App | 8 | App, install, interface, threads, settings, shortcuts |
+| Engineering Workflow | 5 | Git diff, Worktree, browser preview, Chrome, Computer Use |
+| CLI | 6 | Install, flags, Slash commands, sessions, exec |
+| IDE and Cloud | 5 | IDE, Web, Cloud, GitHub Issue to PR |
+| Concepts | 4 | Agent Loop, Context, Sandbox, reasoning |
+| Configuration | 4 | config.toml, permission profiles, Rules, Hooks |
+| Extensions | 5 | AGENTS.md, Skills, MCP, plugins |
+| Real Workflows | 7 | Codebase reading, feature work, bug fixes, tests, review, refactor, frontend |
+| Automation | 3 | Collaboration tools, CI/CD, SDK/API boundaries |
+| Safety | 2 | Local safety, team governance |
+| Appendix | 4 | CLI cheatsheet, Slash cheatsheet, FAQ, glossary |
+
+## Public Boundary
+
+This repository publishes tutorial material only. Public documents do not include credentials, account details, deployment details, private paths, or non-tutorial operational material.
 
 ## License
 
-Original content in this repository is licensed under Apache-2.0. Third-party links and resources retain their own licenses and rights.
+Original tutorial content in this repository is licensed under Apache-2.0. Third-party links and resources retain their own licenses and rights.
