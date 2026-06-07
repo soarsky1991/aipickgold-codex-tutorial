@@ -12,6 +12,7 @@ Build and maintain a Chinese Codex learning repository for AI PickGold.
 - Treat external research objects, internal comparison targets, collection targets, user strategy, and private conversation context as internal by default. Do not publish them in README, docs, website copy, SEO metadata, or public GitHub issues.
 - Public source lists may only include official sources, AI PickGold-owned repositories, or non-sensitive repositories the user explicitly approves for public display.
 - Public wording should say "公开事实源", "原创改写", "系统化课程结构", or "来源许可边界" instead of exposing private research targets, collection targets, or third-party-derived strategy.
+- Public CTA copy should use learning-oriented language such as "找我学习", "加入学习群", and "跟我做实战"; avoid blunt growth-hacking or backend conversion wording.
 - Prefer concise, actionable checklists over long theory.
 - Never commit secrets, tokens, cookies, SSH keys, or deployment credentials.
 
