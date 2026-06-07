@@ -17,6 +17,9 @@ Live site target: https://codex.aipickgold.com
 ## 推荐入口
 
 - 新手先读：[Codex 是什么](docs/01-codex-intro.md)
+- 桌面端上手：[建立第一个工作区](docs/02-desktop-setup.md)
+- 项目上下文：[写一份 AGENTS.md](docs/03-agents-context.md)
+- 扩展能力：[把重复工作流沉淀成 Skills](docs/08-agents-skills.md)
 - 搭站执行看：[站点路线图](docs/site-roadmap.md)
 - 来源与许可看：[来源雷达](research/source-radar.md)
 
