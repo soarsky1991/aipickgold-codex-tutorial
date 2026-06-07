@@ -12,7 +12,8 @@ English README: [README.en.md](README.en.md)
 
 ## 为什么这个仓库值得看
 
-- **完整课程地图**：12 部分、60 个小节，从入门到工程化落地。
+- **完整课程地图**：14 个核心入口、60+ 个小节，从入门到工程化落地。
+- **场景提示词库**：把“接手陌生仓库、做功能、修 Bug、补测试、审 PR、上线检查”写成可直接复制的任务模板。
 - **第一人称实战视角**：我会用真实仓库、发布包、封面和视频流程解释 Codex，而不是只堆命令。
 - **适合中文区学习**：把官方概念翻译成中文开发者能直接执行的步骤。
 - **连接 AI 变现**：不只学 coding agent，也学如何把教程、工具、封面、视频、开源仓库变成个人 IP 资产。
@@ -30,6 +31,7 @@ English README: [README.en.md](README.en.md)
 8. Skills、MCP 与插件：[07-skills-mcp-plugins.md](docs/07-skills-mcp-plugins.md)
 9. 真实项目工作流：[09-real-workflows.md](docs/09-real-workflows.md)
 10. AI 内容变现工作流：[13-ai-monetization-workflow.md](docs/13-ai-monetization-workflow.md)
+11. 场景提示词库：[14-scenario-prompt-library.md](docs/14-scenario-prompt-library.md)
 
 ## 课程结构
 
@@ -47,6 +49,8 @@ English README: [README.en.md](README.en.md)
 | 10 | 集成与自动化 | Slack / Linear、CI/CD、GitHub Action、SDK |
 | 11 | 安全与治理 | 个人安全、团队治理、上线门禁 |
 | 12 | 速查与附录 | CLI 速查、Slash 速查、FAQ、术语表 |
+| 13 | 内容资产 | 教程、封面、视频、开源仓库的组合打法 |
+| 14 | 场景提示词 | 陌生仓库、功能、Bug、测试、Review、上线的可复制模板 |
 
 ## 我的公开仓库路线
 

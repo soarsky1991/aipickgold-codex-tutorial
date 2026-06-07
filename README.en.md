@@ -12,7 +12,8 @@ Chinese README: [README.md](README.md)
 
 ## Why This Repo Is Useful
 
-- **Complete curriculum map**: 12 parts and 60 lessons from beginner setup to engineering workflows.
+- **Complete curriculum map**: 14 core entries and 60+ lessons from beginner setup to engineering workflows.
+- **Scenario prompt library**: copyable prompts for codebase onboarding, feature work, bug fixes, tests, PR review, and release checks.
 - **Practical creator angle**: I connect Codex with real repositories, publishing packages, cover design, video workflows, and personal IP building.
 - **Action-first learning**: Every chapter should lead to a command, checklist, prompt, or reviewable output.
 - **Safety-aware**: Secrets, account actions, production changes, and public content boundaries are treated as first-class topics.
@@ -30,6 +31,7 @@ Chinese README: [README.md](README.md)
 8. Skills, MCP, and plugins: [07-skills-mcp-plugins.md](docs/07-skills-mcp-plugins.md)
 9. Real project workflows: [09-real-workflows.md](docs/09-real-workflows.md)
 10. AI monetization workflow: [13-ai-monetization-workflow.md](docs/13-ai-monetization-workflow.md)
+11. Scenario prompt library: [14-scenario-prompt-library.md](docs/14-scenario-prompt-library.md)
 
 ## Public Repositories
 

@@ -27,7 +27,7 @@
 
 ## Boundaries
 - Do not edit secrets, env files, deployment credentials, or private notes.
-- Public copy must not reveal private research targets or internal strategy.
+- Public copy must not reveal private notes, account details, credentials, or internal strategy.
 - Use original AI PickGold wording for public docs.
 
 ## Verification
@@ -45,7 +45,7 @@
 
 ## 公开内容边界
 
-公开仓库、网站、README、SEO 和项目管理文档，只写可以对外展示的信息。内部研究对象、私人策略、采集目标、账号和密钥路径，都不要进入公开材料。
+公开仓库、网站、README、SEO 和项目管理文档，只写可以对外展示的信息。非公开资料、私人策略、账号细节和密钥路径，都不要进入公开材料。
 
 ## 练习任务
 
